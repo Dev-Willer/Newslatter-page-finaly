@@ -32,6 +32,10 @@ header {
     font-weight: 200;
 }
 
+.h1-primario {
+    color: rgb(132, 14, 201);
+}
+
 li {
     list-style-type: none;
     display: inline-block;
@@ -126,4 +130,33 @@ input::placeholder {
     color:  rgb(132, 14, 201);
     font-family: poppins;
     font-weight: 200;
+}
+
+
+.efeito-h2-aside {
+    visibility: hidden;
+}
+
+.efeito-h2-aside1 {
+    visibility: hidden;
+}
+
+.efeito-p-aside {
+    visibility: hidden;
+}
+
+.efeito-form1 {
+    visibility: hidden;
+}
+
+.efeito-form2 {
+    visibility: hidden;
+}
+
+.efeito {
+    visibility: hidden;
+}
+
+.efeito-img {
+    visibility: hidden;
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/newsletter.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <title>Newslatter Times</title>
@@ -11,12 +13,12 @@
 <body>
     <header class="cabecalho">
         <div class="title">
-            <h1>Marketing</h1>
-            <h1>Criativo</h1>
+            <h1 class="h1-primario">Marketing</h1>
+            <h1>Criativo<span>.</span></h1>
         </div>
 
         <nav class="menu">
-            <ul>
+            <ul class="navegacao">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
@@ -27,37 +29,22 @@
     </header>
 
     <main>
-        <aside>
-            <h2><span>Inscreva-se agora</span></h2>
-            <h2>na Newslatter</h2>
+        <aside class="conteudo">
+            <h2 class="efeito-h2-aside"><span>Inscreva-se agora</span></h2>
+            <h2 class="efeito-h2-aside1">na Newslatter</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolor rerum laborum nemo a libero, nihil, placeat ratione atque quisquam tempore autem nostrum harum necessitatibus, minima obcaecati reiciendis eaque iure!</p>
+            <p class="efeito-p-aside">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolor rerum laborum nemo a libero, nihil, placeat ratione atque quisquam tempore autem nostrum harum necessitatibus, minima obcaecati reiciendis eaque iure!</p>
 
-            <form action="#">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input class="botao" type="submit" value="Inscrever-se">
+            <form action="#" class="formulario">
+                <input class="efeito-form1" type="text" placeholder="Nome">
+                <input class="efeito-form2" type="email" placeholder="Email">
+                <input class="efeito" type="submit" value="Inscrever-se">
             </form>
         </aside>
 
         <article class="img">
-            <img src="./assets/undraw_writer_r7ca.svg" alt="Imagem de uma pessoa com um notebook">
+            <img class="efeito-img" src="./assets/undraw_writer_r7ca.svg" alt="Imagem de uma pessoa com um notebook">
         </article>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-    <script src="script.js"></script>
 </html>
